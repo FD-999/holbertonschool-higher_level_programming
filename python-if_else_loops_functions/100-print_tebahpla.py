@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 a = ""
 result = ""
-b = 0 
+b = 0
 for i in "zyxwvutsrqponmlkjihgfedcba":
     a += i
     if b % 2 == 0:
