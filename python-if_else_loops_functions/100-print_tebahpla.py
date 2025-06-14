@@ -9,4 +9,4 @@ for i in "zyxwvutsrqponmlkjihgfedcba":
     else:
         result += chr(ord(a[b]) - 32)
     b += 1
-print("{}".format(result))
+print("{}".format(result), end="")
