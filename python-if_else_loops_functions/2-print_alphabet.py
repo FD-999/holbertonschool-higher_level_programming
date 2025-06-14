@@ -2,4 +2,4 @@
 a = ""
 for i in "abcdefghijklmnopqrstuvwxyz":
     a += i
-print("{}" .format(a), end="")
+print("{}".format(a), end="")
