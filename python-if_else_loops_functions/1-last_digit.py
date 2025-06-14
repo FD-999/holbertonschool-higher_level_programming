@@ -14,4 +14,7 @@ else:
     number = number*(-1)
     a = number%10
     a = a*(-1)
-    print(f'Last digit of {number*(-1)} is {a} and is less than 6 and not 0')
+    if a == 0:
+        print(f'Last digit of {number*(-1)} is {a} and is 0')
+    else:
+        print(f'Last digit of {number*(-1)} is {a} and is less than 6 and not 0')
