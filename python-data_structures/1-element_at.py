@@ -5,4 +5,4 @@ def element_at(my_list, idx):
     else:
         num = my_list[idx]
         print(f"Element at index {idx} is {num}")
-        return num 
+        
