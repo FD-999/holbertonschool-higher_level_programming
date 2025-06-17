@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 def element_at(my_list, idx):
-    if idx < 0:
+    if idx < 0 or idx >= len(my_list):
         return None
     else:
-        for i in (my_list):
-            num = my_list[idx]
-            print(f"Element at index {} is {}".format(idx, num))
+        num = my_list[idx]
+        print(f"Element at index {idx} is {num}")
