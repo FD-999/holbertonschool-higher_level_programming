@@ -6,4 +6,4 @@ def max_integer(my_list=[]):
     else:
         my_list.sort()
         max_value.extend(my_list)
-        print("Max: {}".format(max_value))
+        print("Max: {}".format(max_value[-1])
