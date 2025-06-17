@@ -7,4 +7,3 @@ def multiple_returns(sentence):
         print("Length: 0 - First character: None")
     else:
         print(f"Length: {s} - First character: {sentence[0]}")
-
