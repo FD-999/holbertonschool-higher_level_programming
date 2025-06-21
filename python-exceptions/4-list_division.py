@@ -9,8 +9,10 @@ def list_division(my_list_1, my_list_2, list_length):
             print("division by 0")
             div = 0
         except IndexError:
+            print("out of range")
             division = 0
         except TypeError:
+            print("wrong type")
             division = 0
         finally:
             result.append(div)
